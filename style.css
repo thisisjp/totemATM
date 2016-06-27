@@ -1,0 +1,44 @@
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        color: #fff;
+                    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-overflow: ellipsis;
+    background-color: black;
+      }
+
+      aside {
+      	background-color: transparent;
+		width: 10vw;
+		top: 0;
+		/*border-bottom: solid 10px black;*/
+		position: fixed;
+		right: 10px;
+		height: 100vh;
+		overflow: hidden;
+		z-index: 7;
+		visibility: hidden;
+		overflow: scroll;
+		-webkit-transition: background-color 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.3s;
+}
+
+a, a:hover, a:visited, a:active {
+    color: white;
+}
+
+
+
+h6 {
+	color: white;	
+	font-size: 24px;
+    padding-left: 20px;
+    padding-top: 0.5%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
